@@ -5,8 +5,7 @@ import {Meal} from './meal.model';
   selector: 'new-meal',
   outputs: ['onSubmitNewMeal'],
   template: `
-    <div class="add-meal-form">
-      <h3>Add Meal:</h3>
+    <div class="new-meal-form">
       <input placeholder="Name" class="col-sm-8 input-lg" #newName>
       <input type="number" placeholder="Calories" class="col-sm-8 input-lg" #newCalories>
       <input placeholder="Details" class="col-sm-8 input-lg" #newDetails>

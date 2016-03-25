@@ -6,15 +6,17 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   directives: [MealListComponent],
   template: `
-  <div class="jumbotron center">
-    <h1>Meal List</h1>
+  <div class="jumbotron">
+    <h1 class="header">Meal Tracker</h1>
   </div>
 
   <div class="container">
+  <div>
+    <h2>Meals:</h2>
     <meal-list
-    [mealList]="meals"
-    (onMealSelect)="mealWasSelected($event)">
+    [mealList]="meals">
     </meal-list>
+  </div>
   </div>
   `
 })
@@ -27,8 +29,5 @@ export class AppComponent {
       new Meal("Hamburger", 340, "No cheese", 1),
       new Meal("Wrap", 250, "Mostly salad", 2)
     ];
-  }
-  mealWasSelected(clickedMeal: Meal): void {
-    console.log(clickedMeal);
   }
 }
