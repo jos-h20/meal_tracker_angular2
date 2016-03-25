@@ -1,5 +1,5 @@
 {
-  "name": "angular2-skeleton-app",
+  "name": "meal_tracker",
   "version": "1.0.0",
   "scripts": {
     "start": "npm run tsc:w",
@@ -36,6 +36,10 @@
     "typings": "^0.6.8"
   },
   "main": "index.js",
-  "author": "",
-  "description": ""
+  "author": "Josh Overly",
+  "description": "#### _A simple template, 3.__.2016_",
+  "repository": {
+    "type": "git",
+    "url": "meal_tracker.git"
+  }
 }
