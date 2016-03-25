@@ -1,4 +1,6 @@
-import { Component } from 'angular2/core';
+import { Component, EventEmitter } from 'angular2/core';
+import { Meal } from './meal.model';
+import { MealListComponent } from './meal-list.component';
 
 @Component({
   selector: 'my-app',
@@ -12,5 +14,13 @@ import { Component } from 'angular2/core';
 })
 
 export class AppComponent {
+  public meals: Meal[];
+  constructor() {
+    this.meals = [
+      new Meal("Burrito", "Lean Meat, not too much cheese", "370", 0)
+    ];
+  }
+  mealWasSelected(clickedMeal: Meal): void {
 
+  }
 }
