@@ -42,7 +42,7 @@ _email: joshoverly@student.com_
 
 ## Technologies Used
 
-_Bootstrap, Npm, Bower, SASS, Gulp, Moment, JavaScript_
+_Bootstrap, Npm, Bower, SASS, Gulp, Moment, Angular2, JavaScript_
 
 ### License
 
