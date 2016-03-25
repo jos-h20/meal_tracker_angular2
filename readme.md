@@ -1,61 +1,49 @@
-# _Project Title_
+# _Meal Tracker_
 
-#### _A simple template, 3.__.2016_
+#### _Allows user to keep track of meals, 3.25.2016_
 
-### By _**Jon Sweeney and **_
+#### By _**Josh Overly**_
 
 ## Description
 
-_This web app is designed to ._
+Users can enter meals they have eaten. They can record the name, calories, and details of the meals they have eaten._
 
-_The goal of this project is to ._
+## Setup/Installation Requirements
 
-_The project was put together using ._
+### You will need npm and bower to be installed on your computer.
+#### Here are links to both:
+* npm https://www.npmjs.com/
+* bower http://bower.io/
 
-
-## Setup/Installation
-
-#### System Requirements
-
-1. [Node.js](https://nodejs.org/en/) w/ [npm](https://www.npmjs.com/)
-2. [Bower](http://bower.io/)
-
-#### Installation
-
-* After cloning the repo, you will need to install dependencies...
-
-
-    npm install
-    bower install
-
-* Gulp is used to handle both building the site and launching a server to host the site...
-
-
-    gulp serve
+### After npm and bower are functioning on your machine:
+* Open the terminal on your computer
+* Go to link: https://github.com/jos-h20/meal_tracker_angular2
+* Copy it.
+* In your terminal, change your directory to desktop, type "git clone" and paste the link in.
+* The folder meal_tracker will download on your desktop.
+* Change your directory to meal_tracker.
+* Type in "npm install".
+* Type in "bower install".
+* If globals are needed, install for gulp, bower, and sass.
+- npm install gulp -g
+- npm install bower -g
+- gem install sass
+* After bower finishes installing, type "gulp build".
+* When gulp has finished, type "gulp serve";
+* The server will appear in your web browser at "localhost:3000".
 
 ## Known Bugs
 
-_This application is not fully designed and may have unknown bugs._
-
-_The current gulpfile.js does not handle creation of a production version of the build (with minified js). Front-end dependencies will still be minified._
-
-## To Do (coming in future versions)
-
-1. [ ] No crash at errors during watch. Will log errors but not attempt a rebuild.
-2. [ ] Folder for organizing html files, gulp will build fresh html in the build folder.
+_No known bugs._
 
 ## Support and contact details
 
-_If you have any questions, concerns, or feedback, please contact the authors through_ [gitHub](https://github.com/jsween/).
+_email: joshoverly@student.com_
 
 ## Technologies Used
 
-* _This project was built on [Node.js](https://nodejs.org/en/)._
-* _Dependencies were handled with [npm](https://www.npmjs.com/) and [Bower](http://bower.io/)._
-* _[Gulp](http://gulpjs.com/) is an awesome asset pipeline used in this project._
+_Bootstrap, Npm, Bower, SASS, Gulp, Moment, JavaScript_
 
 ### License
 
-MIT License.
-
-Copyright (c) 2016 **_Jon Sweeney_**
+Copyright (c) 2016 **_OverlyDev Licensing MIT_**

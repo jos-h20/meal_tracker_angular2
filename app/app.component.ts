@@ -18,6 +18,13 @@ import { Meal } from './meal.model';
     </meal-list>
   </div>
   </div>
+  <div class="navbar navbar-fixed-bottom" role="navigation">
+  <div class="container">
+      <div class="navbar-text pull-left">
+          <p>© 2016 Josh Overly.</p>
+      </div>
+  </div>
+</div>  
   `
 })
 
