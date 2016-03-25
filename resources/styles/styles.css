@@ -1,11 +1,12 @@
 body {
 background-color: white;
-/*background-image: url("/resources/images/background.jpg");*/
+background-image: url("/resources/images/background2.jpg");
+background-repeat: no-repeat;
 
 
 }
 .jumbotron {
-    color: darkorange;
+    color:#22bdf0;
     width: 100%;
     background-image: url("/resources/images/header.jpg");
     background-size: cover;
@@ -29,7 +30,7 @@ background-color: white;
     padding: 20px;
     background-color: #007200;
     background-image: url("/resources/images/wood.jpg");
-    color: darkorange;
+    color: black;
     max-width: 820px;
     margin-bottom: 100px;
 }
