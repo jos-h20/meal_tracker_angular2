@@ -1,0 +1,15 @@
+<select (change)="onChange($event.target.value)" class="filter">
+  <option value="all" selected="selected">Show All</option>
+  <option value="Michael Jackson">Michael Jackson</option>
+  <option value="AC/DC">AC/DC</option>
+  <option value="Pink Floyd">Pink Floyd</option>
+</select>
+
+
+<meal-display *ngFor="#currentMeal of mealList (click)="mealClicked(currentMeal)"
+  [class.selected]="currentMeal === selectedMeal" [meal]="currentMeal">
+</meal-display>
+
+
+<h3>Calories: {{ meal.calories }}</h3>
+<h3>Details: {{ meal.details }}</h3>

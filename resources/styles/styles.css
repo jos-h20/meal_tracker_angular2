@@ -5,3 +5,42 @@ h1 {
 .center {
   text-align: center;
 }
+.selected {
+  color: #22bdf0;
+
+}
+
+.keg-form {
+  margin-top: 80px;
+  margin-bottom: 200px;
+  display: block;
+}
+.add-meal-form {
+  margin-top: 160px;
+  margin-bottom: 80px;
+  display: block;
+}
+.add-button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+
+}
+.display {
+  background-color: lightgray;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.check {
+  height: 50px;
+  width: 50px;
+}
